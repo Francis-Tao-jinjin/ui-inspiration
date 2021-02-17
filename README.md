@@ -13,3 +13,9 @@ This repository is mainly to record some UI design inspiration, including the co
 **grid layout navbar**
 
 ![3 style of grid navbar](/imgs/navbar/3.png)
+
+## Card UI
+
+**Credit Card**
+
+![credit card grid layout](/imgs/card/creditCard.png)
