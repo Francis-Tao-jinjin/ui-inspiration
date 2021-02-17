@@ -35,6 +35,13 @@ main > * + * {
 header {
     display: grid;
     gap: 0.5rem;
+    padding: 0.5rem;
+    width: 100%;
+    min-width: 750px;
+    border-radius: 0.5rem;
+    background: var(--background-color);
+    box-shadow: 3px 3px 8px 0px var(--background-color);
+    font-family: 'Lato', sans-serif !important;
 }
 
 header.version-1 {
@@ -65,16 +72,6 @@ header.version-3 {
     --color: #22d1d3;
     grid-template-columns: max-content min-content auto min-content;
     grid-template-areas: "user nav . logo";
-}
-
-header {
-    padding: 0.5rem;
-    width: 100%;
-    min-width: 750px;
-    border-radius: 0.5rem;
-    background: var(--background-color);
-    box-shadow: 3px 3px 8px 0px var(--background-color);
-    font-family: 'Lato', sans-serif !important;
 }
 
 header a {
