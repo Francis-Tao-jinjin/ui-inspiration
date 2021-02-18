@@ -1,6 +1,6 @@
 # Inspiration UI design
 
-This repository is mainly to record some UI design inspiration, including the complete html, css, js code.
+This repo stores the UI design Inspiration I collected from time to time. All of them have complete source code.
 
 ## NavBar
 
