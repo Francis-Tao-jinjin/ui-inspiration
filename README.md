@@ -25,3 +25,7 @@ This repository is mainly to record some UI design inspiration, including the co
 ![Responsive Card Big Screen](/imgs/card/responsive-card/1.png)
 
 ![Responsive Card Small Screen](/imgs/card/responsive-card/2.png)
+
+**Twitter Style Profile Card**
+
+![Twitter Style Profile Card](/imgs/card/twitter-style-profile-card.png)
