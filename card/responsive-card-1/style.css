@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0,0,0, 0.2);
+    display: flex;
+    flex-direction: column;
+    background: #005e9b;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.profile-sidebar > img {
+    width: 150px;
+}
+
+.social-list {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 125px;
+}
+
+.social-link {
+    color: #5bcbf0;
+    opacity: 0.5;
+    font-size: 1.35rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+    opacity: 1;  
+} 
+
+.profile-name {
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    margin: 1rem auto;
+}
+
+.profile-name::after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 2em;
+    background: #5bcbf0;
+    margin: 0.6em auto;
+    opacity: 0.35;
+}
+
+.profile-position {
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 2px;
+    color: #5bcbf0;
+}
+
+.profile-body {
+    font-weight: 300;
+    opacity: 0.8;
+    margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+    .card {
+        flex-direction: row;
+    }
+
+    .profile-main {
+        text-align: left;
+        margin-left: 2em;
+    }
+
+    .profile-name::after {
+        margin-left: 0;
+    }
+}
